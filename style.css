@@ -1,0 +1,116 @@
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+
+body {
+  margin-bottom: 60px;
+  /* font-family: 'Balthazar', serif; */
+}
+
+/* ==========================================================================
+   Navigation
+   ========================================================================== */
+
+.navbar {
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+}
+
+.navbar-brand {
+  margin-top: 10px;
+}
+
+.navbar-nav {
+  margin-top: 10px;
+}
+
+/* Mobile responsive navbar */
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: center !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .navbar-brand {
+    margin: 0 !important;
+    text-align: center;
+  }
+  
+  .navbar-brand .text-muted {
+    display: none;
+  }
+  
+  .navbar-nav {
+    display: none;
+  }
+  
+  .navbar-brand .h4 {
+    margin: 0 !important;
+    font-size: 1.5rem;
+  }
+}
+
+/* ==========================================================================
+   Layout
+   ========================================================================== */
+
+.main-content {
+  margin-top: 35vh;
+  transform: translateY(-20%);
+}
+
+/* ==========================================================================
+   Typography & Content
+   ========================================================================== */
+
+.text-content {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+
+.blog-section h2 {
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   Interactive Elements
+   ========================================================================== */
+
+.blog-title {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.blog-title:hover {
+  color: #e91e63 !important;
+}
+
+.blog-post {
+  transition: background-color 0.3s ease;
+}
+
+.blog-post:hover {
+  background-color: #f8f9fa;
+}
+
+.nav-link-primary {
+  color: #e91e63 !important;
+  text-decoration: none;
+}
+
+.nav-link-primary:hover {
+  color: #c2185b !important;
+}
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+.text-primary-color {
+  color: #e91e63;
+}
+
+.border-primary {
+  border-color: #e91e63 !important;
+}
