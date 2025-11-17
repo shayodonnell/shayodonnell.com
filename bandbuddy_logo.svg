@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Blue background matching navbar -->
+  <rect width="400" height="400" fill="blue"/>
+  
+  <!-- BandBuddy text in Helvetica Neue (centered) -->
+  <text x="200" y="215" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="48" fill="white" font-weight="700" text-anchor="middle">BandBuddy 🎸</text>
+</svg>

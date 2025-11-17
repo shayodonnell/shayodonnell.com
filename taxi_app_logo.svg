@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- Warm amber/yellow background that complements taxi -->
+  <rect width="400" height="400" fill="#FFC107"/>
+  
+  <!-- Taxi emoji centered -->
+  <text x="200" y="250" font-size="180" text-anchor="middle">🚗</text>
+</svg>
